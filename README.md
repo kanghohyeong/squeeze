@@ -1,6 +1,6 @@
 # <img src="public/icons/icon_48.png" width="45" align="left"> SQUEEZE!
 
-Squeezing your text until you want!
+Squeeze your text until you're satisfied!
 <br>
 powered by OpenAI - chat gpt
 
@@ -9,7 +9,9 @@ powered by OpenAI - chat gpt
 
 ## Install
 
-[How to Install **Chrome** extension](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked)
+- npm run watch
+- npm run build
+- [How to Install **Chrome** extension](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked)
 
 
 ## Contribution
