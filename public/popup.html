@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SQUEEZE!</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+  <div class="app">
+    <h2>SQUEEZE!</h2>
+    <textarea id="text_input" name="text_input" autocomplete="off" maxlength="5000" placeholder="TL;DR"></textarea>
+    <p id="text_counter">0/0</p>
+    <img id="squeeze_btn" src="images/normal_fish_resize.png" width="100px" height="100px" />
+    <div class="config_container">
+      <div class="config_item">
+        <label>openai api key<a href="https://platform.openai.com/account/api-keys" target="_blank">[link]</a></label>
+        <input type="text" placeholder="sk-xxxx.." id="key_input"/>
+      </div>
+      <div class="config_item">
+        <label>translate</label>
+        <select id="language_input">
+          <option value="English" selected>English</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>

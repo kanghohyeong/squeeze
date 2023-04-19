@@ -1,0 +1,85 @@
+/* normalize css starts here */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+/* normalize css ends here */
+
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    color: ghostwhite;
+    background-color: black;
+}
+
+body {
+    width: 350px;
+    /* height: 300px; */
+}
+
+.app {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+#text_input {
+    resize: none;
+    width: 100%;
+    height: 300px;
+    padding-bottom: 5px;
+}
+
+#text_counter {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#squeeze_btn:hover {
+    cursor: pointer;
+}
+
+.config_container {
+    display: flex;
+
+    justify-content: flex-end;
+}
+
+@keyframes shaking {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-1px);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    75% {
+        transform: translateX(1px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.shaking {
+    animation: shaking 0.1s infinite;
+}
