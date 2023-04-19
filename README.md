@@ -7,12 +7,13 @@ powered by OpenAI - chat gpt
 ## DEMO
 ![squeeze_demo](https://user-images.githubusercontent.com/63776725/232964794-2e31b0c6-0e6e-4a8f-9b35-88b919a16836.gif)
 
-## Install
-
-- npm run watch
-- npm run build
+## Install:
+- [Latest Release](https://github.com/kanghohyeong/squeeze/releases/tag/release_230419)
 - [How to Install **Chrome** extension](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked)
 
+## DEV
+- npm run watch
+- npm run build
 
 ## Contribution
 
