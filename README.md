@@ -5,7 +5,7 @@ Squeeze your text until you're satisfied!
 powered by OpenAI - chat gpt
 
 ## DEMO
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9usptKa-7fI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![demo video](http://img.youtube.com/vi/9usptKa-7fI/0.jpg)](https://youtu.be/9usptKa-7fI?t=0s)
 
 ## Install:
 - [Latest Release](https://github.com/kanghohyeong/squeeze/releases/tag/release_230419)
