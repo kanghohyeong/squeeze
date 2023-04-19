@@ -1,15 +1,13 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> Spike!
+# <img src="public/icons/icon_48.png" width="45" align="left"> SQUEEZE!
 
-My Chrome Extension
+Squeezing your text until you want!
+<br>
+powered by OpenAI - chat gpt
 
-## Features
-
-- Feature 1
-- Feature 2
 
 ## Install
 
-[**Chrome** extension]()
+[How to Install **Chrome** extension](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked)
 
 ## Contribution
 
